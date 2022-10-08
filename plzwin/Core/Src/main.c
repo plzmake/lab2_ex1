@@ -148,7 +148,11 @@ if (num == 0)
 	  }
 }
 
+<<<<<<< HEAD
 Settimer1(100);
+=======
+Settimer1(50);
+>>>>>>> b7d4892 (first commit)
 int num = 2 ;
 HAL_GPIO_WritePin(EN0_GPIO_Port,EN0_Pin,GPIO_PIN_RESET);
 HAL_GPIO_WritePin(EN1_GPIO_Port,EN1_Pin,GPIO_PIN_SET);
@@ -156,7 +160,11 @@ HAL_GPIO_WritePin(EN1_GPIO_Port,EN1_Pin,GPIO_PIN_SET);
   {
     /* USER CODE END WHILE */
 if (Timer1_flag == 1){
+<<<<<<< HEAD
 	Settimer1(100);
+=======
+	Settimer1(50);
+>>>>>>> b7d4892 (first commit)
 	if (num == 1 ) {display7SEG(1);num = num +1;}
 	else if (num == 2)
 	{
